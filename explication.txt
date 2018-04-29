@@ -1,0 +1,13 @@
+J'ai choisi de faire une liste pour les 4 boutons de message.
+Les 3 derniers elements de la liste( message1 , 2, 3) sont cachés au depart avec display : none.
+Quand on clique sur le 1er , le 2ieme apparait
+Quand on clique sur le 2ieme(celui qui vient d'apparaitre) , le 3ieme apparait...
+
+Ils apparaissent grace a la fonction d'affichage show() en jquery qui pointe vers la classe qui leur est attribué
+Je leur ai attribué en css une couleur differente.
+
+Quand on clique sur le dernier, il y a 2 actions:
+L'image de fond change , en modifiant le css grace a la fonction .css() en jquery
+et la musique se met en route grace a la fonction attr() qui ajoute l'attribut autoplay à la balise audio.
+
+Les fichiers images et musique sont repectivement dans les dossier image et musique
